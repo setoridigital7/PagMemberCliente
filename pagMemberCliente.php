@@ -15,11 +15,11 @@ require_once('updater.php');
 if (is_admin()) { // note the use of is_admin() to double check that this is happening in the admin
 		$config = array(
 			'slug' => plugin_basename(__FILE__), // this is the slug of your plugin
-			'proper_folder_name' => 'pagmembercliente', // this is the name of the folder your plugin lives in
-			'api_url' => 'https://api.github.com/repos/getuliochaves/pagmembercliente', // the GitHub API url of your GitHub repo
-			'raw_url' => 'https://raw.github.com/getuliochaves/pagmembercliente/master', // the GitHub raw url of your GitHub repo
-			'github_url' => 'https://github.com/getuliochaves/pagmembercliente', // the GitHub url of your GitHub repo
-			'zip_url' => 'https://github.com/getuliochaves/pagmembercliente/zipball/master', // the zip url of the GitHub repo
+			'proper_folder_name' => 'PagMemberCliente', // this is the name of the folder your plugin lives in
+			'api_url' => 'https://api.github.com/repos/getuliochaves/PagMemberCliente', // the GitHub API url of your GitHub repo
+			'raw_url' => 'https://raw.github.com/getuliochaves/PagMemberCliente/master', // the GitHub raw url of your GitHub repo
+			'github_url' => 'https://github.com/getuliochaves/PagMemberCliente', // the GitHub url of your GitHub repo
+			'zip_url' => 'https://github.com/getuliochaves/PagMemberCliente/zipball/master', // the zip url of the GitHub repo
 			'sslverify' => true, // whether WP should check the validity of the SSL cert when getting an update, see https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/2 and https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/4 for details
 			'requires' => '3.0', // which version of WordPress does your plugin require?
 			'tested' => '4.7.5', // which version of WordPress is your plugin tested up to?
