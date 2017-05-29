@@ -6,7 +6,7 @@ Plugin para Gerenciar Membros no PagMember, que integra automaticamente com PagS
 ### 5.2
 * Atualização de Servidor
 
-### 5.1
+### 5.4
 * Atualização de Criação de Transações do Cliente
 * Necessário para funcionar com PagMember 5
 
